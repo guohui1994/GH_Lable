@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D71D6D6424206007003A84D8 /* GH_Button.m in Sources */ = {isa = PBXBuildFile; fileRef = D71D6D6324206007003A84D8 /* GH_Button.m */; };
+		D7240DE92421BF7A00DF8303 /* GH_ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7240DE82421BF7A00DF8303 /* GH_ImageView.m */; };
 		D72F76BB241B8500001A6830 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D72F76BA241B8500001A6830 /* AppDelegate.m */; };
 		D72F76BE241B8500001A6830 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72F76BD241B8500001A6830 /* ViewController.m */; };
 		D72F76C1241B8500001A6830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72F76BF241B8500001A6830 /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		D72F76C9241B8505001A6830 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D72F76C8241B8505001A6830 /* main.m */; };
 		D72F76D3241B8505001A6830 /* lableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D72F76D2241B8505001A6830 /* lableTests.m */; };
 		D72F76DE241B8505001A6830 /* lableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D72F76DD241B8505001A6830 /* lableUITests.m */; };
+		D72F76ED241B851D001A6830 /* GH_Lable.m in Sources */ = {isa = PBXBuildFile; fileRef = D72F76EC241B851D001A6830 /* GH_Lable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D71D6D6224206007003A84D8 /* GH_Button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GH_Button.h; sourceTree = "<group>"; };
+		D71D6D6324206007003A84D8 /* GH_Button.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GH_Button.m; sourceTree = "<group>"; };
+		D7240DE72421BF7A00DF8303 /* GH_ImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GH_ImageView.h; sourceTree = "<group>"; };
+		D7240DE82421BF7A00DF8303 /* GH_ImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GH_ImageView.m; sourceTree = "<group>"; };
 		D72F76B6241B8500001A6830 /* lable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72F76B9241B8500001A6830 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D72F76BA241B8500001A6830 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +58,9 @@
 		D72F76D9241B8505001A6830 /* lableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72F76DD241B8505001A6830 /* lableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lableUITests.m; sourceTree = "<group>"; };
 		D72F76DF241B8505001A6830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D72F76EB241B851D001A6830 /* GH_Lable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GH_Lable.h; sourceTree = "<group>"; };
+		D72F76EC241B851D001A6830 /* GH_Lable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GH_Lable.m; sourceTree = "<group>"; };
+		D77A58DA2422FEED008B8A08 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,13 @@
 				D72F76BA241B8500001A6830 /* AppDelegate.m */,
 				D72F76BC241B8500001A6830 /* ViewController.h */,
 				D72F76BD241B8500001A6830 /* ViewController.m */,
+				D72F76EB241B851D001A6830 /* GH_Lable.h */,
+				D72F76EC241B851D001A6830 /* GH_Lable.m */,
+				D71D6D6224206007003A84D8 /* GH_Button.h */,
+				D71D6D6324206007003A84D8 /* GH_Button.m */,
+				D7240DE72421BF7A00DF8303 /* GH_ImageView.h */,
+				D7240DE82421BF7A00DF8303 /* GH_ImageView.m */,
+				D77A58DA2422FEED008B8A08 /* Header.h */,
 				D72F76BF241B8500001A6830 /* Main.storyboard */,
 				D72F76C2241B8505001A6830 /* Assets.xcassets */,
 				D72F76C4241B8505001A6830 /* LaunchScreen.storyboard */,
@@ -262,9 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D71D6D6424206007003A84D8 /* GH_Button.m in Sources */,
 				D72F76BE241B8500001A6830 /* ViewController.m in Sources */,
 				D72F76C9241B8505001A6830 /* main.m in Sources */,
+				D7240DE92421BF7A00DF8303 /* GH_ImageView.m in Sources */,
 				D72F76BB241B8500001A6830 /* AppDelegate.m in Sources */,
+				D72F76ED241B851D001A6830 /* GH_Lable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
